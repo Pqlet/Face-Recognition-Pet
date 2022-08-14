@@ -1,7 +1,7 @@
 # Face-Recognition-Pet
 
-1) Load utils file
-2) Load saved model weights for alignment and detection
+1) ~~Load utils file~~
+2) ~~Load saved model weights for alignment and detection~~
 3) Load training notebook for alignment
 4) Load trained model weigths
 5) MAKE FULL PIPELINE - PREDICT IMAGE CLASS FOR TEST 1K DATASET IMAGES BUT FROM CelebA-Wild dataset 
