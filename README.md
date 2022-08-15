@@ -1,16 +1,17 @@
 # Face-Recognition-Pet
 
-1) ~~Load utils file~~
-2) ~~Load saved model weights for alignment and detection~~
-3) ~~Load training notebook for alignment~~
-4) ~~Load trained model weigths for CE loss~~
-5) ~~MAKE FULL PIPELINE - PREDICT IMAGE CLASS FOR TEST 1K DATASET IMAGES BUT FROM CelebA-Wild dataset~~
-6) ~~Load preprocessing notebook for detection + add console lines for training YoloV5 inside~~
-7) Load main notebook with everything you have
-8) ~~Load notebook with best~~
+В репозитории:
+
+1) Главный ноутбук с обучением модели на 500 классов, не дающими качественный результат наработками Triplt loss и ArcFace loss, работающим в силу обученности внутренних моделей пайплайн Face Recognition(classification).
+2) Папка Best_accscore_1000 с ноутбуком обучения модели на CE на 1000 классов с accuracy > 0.85 на валидации.
+3) Alignment_training.ipynb - Ноутбук с обучением модели нахождения лэндмарков на изображении лица.
+4) Prepare_data_for_YoloV5.ipynb - Ноутбук подготовки разметки для Yolov5
+5) utils.py - Функции и классы хелперы.
+6) trained_models - Папка с моделями, использующимися в главном ноутбуке
 
 ---
 TODO: Robust landmarks rotation
 
-TODO: Retrain Alignment NN with more CUSTOM random augmentations 
-    
+TODO: Retrain Alignment NN with more custom random augmentations 
+
+TODO: ArcFace
