@@ -10,7 +10,7 @@
 6) Папка Best_accscore_1000 с ноутбуком обучения модели на CE на 1000 классов с accuracy > 0.85 на валидации.
 
 ---
-TODO: Robust landmarks rotation
+TODO: Robust landmarks rotation - https://github.com/PyImageSearch/imutils/blob/master/imutils/face_utils/facealigner.py
 
 TODO: Retrain Alignment NN with more custom random augmentations 
 
