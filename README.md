@@ -6,8 +6,7 @@
   - Plotting cosine similarities between embeddings corresponding to the pictures of the same person and different people, calculating TPR@FPR metric.
   - Implementing and calculating TPR@FPR metric.
 ---
-В репозитории:
-
+Files:
 1) Main_notebook.ipynb - Main notebook
 2) Alignment_training.ipynb - Notebook with face landmarks alignment model training and alignment itself.
 3) Prepare_data_for_YoloV5.ipynb - Notebook for bbox preparation for YOLOv5
